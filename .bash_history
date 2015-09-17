@@ -127,3 +127,12 @@ top
 kill 2038
 sudo kill 2038
 sudo kill 2235
+git push origin master
+git pull origin master
+cat README
+vim README.md
+git push origin master
+sudo apt-get install phpmyadmin
+sudo php5enmod mcrypt
+sudo service apache2 restart
+sudo sysv-rc-conf mysqld on

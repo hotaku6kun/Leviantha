@@ -1,4 +1,4 @@
-TYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -10,12 +10,420 @@ TYPE html>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
       <style>
-"index.html" 502L, 24401C                                   1,1           Top
+        .featurette-divider {
+          margin: 80px 0;
+          background-color: #099;
+        }
+        img, img.img-responsive {
+            margin: 0 auto;
+            background-color: #077;
+        }
+        .carousel .item {
+            height: 500px;
+            background-color: #076;
+        }
+        /* Required for scrollspy to work*/
+        body {
+          position: relative;
+        }
+        /* The fixed navbar will overlay your other content, unless you add padding to the top of the <body>. Try out your own values or use our snippet below. Pro Tip: By default, the navbar is 50px high.*/
+        body {
+          padding-top: 50px;
+        }
+        /* Hotfix the panes with 20px on top*/
+        .tab-pane{
+          margin: 20px 0;
+        }
+      </style>
+    </head>
+    <body data-spy="scroll" data-target="#scrollspy">
+  
 
+      <nav id="scrollspy" class="navbar navbar-default navbar-fixed-top navbar-inverse" >
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Vocaloid</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#Carousel">Canciones del mes</a></li>
+              <li><a href="#Jumbotron">Acerca de la página</a></li>
+              <li><a href="#MainContainer">Articulo del mes </a></li>
+              <li><a href="#Tabs">Tabs<span class="badge">0</span></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="https://www.youtube.com/user/HatsuneMiku">Canal de youtube de Hatsune Miku</a></li>
+                  <li><a href="http://www.crypton.co.jp/miku_eng">Pagina official de Krypton Future Media</a></li>
+                  <li><a href="http://es.vocaloid.wikia.com/wiki/Vocaloid_Wikia">Vocaloid wiki</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--
+        1. Carousel
+      -->
+      <div id="Carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#Carousel" data-slide-to="1"></li>
+          <li data-target="#Carousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="carousel-caption" >
+              <h1>Yubikiri</h1>
+              <p>...Tu y yo somos algo muy especial, no son solo palabras para poderte adular. 
+                Que me mires solo a mi.
+                Ser el único que se pueda reflejar en tu hermoso mirar, por favor no me mires asi...
+              </p>
+              <p>
+                <img src="https://i1.sndcdn.com/artworks-000038931439-o2t2qo-t500x500.jpg" width="250px">
+                <li><a href="https://www.youtube.com/watch?v=s8f2wZSnfoA">
+
+                  <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="https://www.youtube.com/watch?v=s8f2wZSnfoA" >ir a video</button>
+                </a></li>
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="carousel-caption">
+              <h1>Coward Montblanc</h1>
+              <p>Sentimientos que en su total, se pueden contar tan solo asi. Te amaba pero no pude aguantar. ¿Eso es todo lo que hay por decir?...</p>
+              <p>
+                <img src="http://vignette3.wikia.nocookie.net/vocaloid/images/2/27/Coward_Montblanc.jpg/revision/latest?cb=20130719070333" width="350px">
+                <li><a href="https://www.youtube.com/watch?v=UnX-cG7CJqw">
+
+                  <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="https://www.youtube.com/watch?v=UnX-cG7CJqw" >ir a video</button>
+                </a></li>
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="carousel-caption">
+              <h1>Karakuri pierrot</h1>
+              <p>Estoy solo aqui, en la vieja estación, esperando con mil horas de anticipación.
+                La gente al caminar, las nubes al pasar
+                se rien de mi soledad... </p>
+              <p>
+                <img src="http://images.forwallpaper.com/files/thumbs/preview/42/428563__karakuri-pierrot_p.jpg" width="450px">
+                <li><a href="https://www.youtube.com/watch?v=Nvzi72jkTc4">
+
+                  <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="https://www.youtube.com/watch?v=Nvzi72jkTc4" >ir a video</button>
+                </a></li>
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div id="Jumbotron" class="jumbotron">
+        <div class="container">
+          <h1><span class="label label-default">♫♪♫♪</span> Konichiwa, sekai!</h1>
+          <p>Bienvenidos a la pagina de fans de vocaloid, en la cual podras ver lo mas nuevo de estos canantes virtuales, los articulos mas destacados y compartir tus ideas con la comunidad. Cualquier sugerencia envianosla mediante los siguientes botones.</p>
+          <div class="alert alert-info" role="alert">
+            <strong>Attencion!</strong> Es posible que tardemos un tiempo en leer tu sugerencia, si pasa mas de dos semanas vuelve a enviar tu correo.
+          </div>
+            <!--
+              2. Modal
+            -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@Administrador">Enviar para administrador</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@Tops">Enviar para Tops</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@sugerencias">Enviar para sugerencias</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@errores">Enviar para errores</button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="exampleModalLabel">Mensaje nuevo</h4>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="recipient-name" class="control-label">Enviar a:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                      </div>
+                      <div class="form-group">
+                        <label for="message-text" class="control-label">Mensaje:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Listo! envialo</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div id="MainContainer" class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <h2>Articulo Destacado
+                <span class="text-muted">Saga evilious, la historia de mothy</span>
+              </h2>
+              <p class="lead"> Comenzando con la caida de levianta, el pais magico, comenzo la historia del pecado. Sigue esta historia creada por mothy, la cual pasa por los siete pecados capitales. Sateriasis Venomania, interpretado por Kamui Gakupo, representa la lujuria. Banika Conchita, interpretado por Sakine Meiko, representa la gula. Riliane Lucifen d'Autriche, interpretado por Kagamine Rin, representa la soberbia. Margarita Blankenheim, interpretado por Hatsune Miku, representa la pereza. Kayo Sudou, interpretado por Mgurine luka, representa la envidia. Gallerian Marlon, interpretado por Shion Kaito, representa la avaricia. Nemesis Sudou, interpretado por Megpoid Gumi, representa la ira. Una trama llena de drama, odio y venganza. Al final, el deseo de quien se cumplira?</p>
+
+            </div>
+            <div class="col-md-4">
+              <img class="img-square img-responsive" src="http://vignette3.wikia.nocookie.net/vocaloid/images/c/cd/SDSBackground.png/revision/latest?cb=20150217050121">
+            </div>
+            <hr class="col-md-12 featurette-divider">
+            <h2>Pregunta del mes:
+                <span class="text-muted">¿Sabes cuales fueron los primeros Vocaloids?</span>
+              </h2>
+            <p class="lead"> MEIKO y KAITO fueron los primeros, comercializados por primera vez el 24 de julio de 2003, con la canción <i>Ano Subarashii Ai wo ichido Mou</i> (ese maravilloso amor una vez más). En un principio, MEIKO vendió mas de 3.000 unidades en su primer año según la revista DTM, esto era anormal para un sintetizador de software en ese momento. Esto fue mucho mejor que su contraparte KAITO que había vendido sólo 500 unidades. Para para tener éxito, un sintetizador de software tuvo que vender 1.000 unidades.</p>
+
+            </div>
+            <div class="col-md-4">
+              <img class="img-square img-responsive" src="http://images4.fanpop.com/image/photos/15800000/meiko-x-kaito-the-meiko-spot-15844797-640-512.jpg">
+            </div>
+
+            <hr class="col-md-12 featurette-divider">
+            <div class="col-md-4">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MGvzMqHydfA" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <h2>Eleccion del editor <small>Romeo and Cinderella</small></h2>
+              <dl class="dl-horizontal text-center">
+                <dt>Un romance... poco comun?</dt>
+                <dd>La historia entre dos enamorados, tratando de encontrar el amor, tal cual como lo harian en un cuento de hadas. Pero se dan cuenta que su romance tiene mas dificultades que las que esperarian. </dd>
+                <dt>Porque mi eleccion?</dt>
+                <dd>Aunque pareciese una historia un poco cliche, demuestra que un amor en la vida real necesita mas esfuerzo que el que pareceria, dando todo de si, y saber cuando es suficiente</dd>
+              </dl>
+            </div>
+
+            <hr class="col-md-12 featurette-divider">
+            <div class="col-md-12">
+              <h1>Frases del mes</h1>
+            </div>
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-4">
+                  <blockquote>
+                    <p>...¡Aun no estoy muerta! Aun si lo grito para mi misma...</p>
+                    <footer>キューカム en <cite title="Source Title">Hanged Girl of the Haunted Mansion</cite></footer>
+                  </blockquote>
+                </div>
+                <div class="col-md-4 col-md-offset-4">
+                  <blockquote class="blockquote-reverse">
+                    <p>...¿Crees que la honestidad te ayudara?¡La honestidad un tonto te hara!...</p>
+                    <footer>Neru en <cite title="Source Title">Tokyo teddy bear</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <p>
+                En caso de que tus mensajes sigan sin ser respondidos(Dado dos intentos) enviar un mensaje al siguiente correo
+              </p>
+
+              <address>
+                <strong>Andres Hernández Pacheco Id:0169134</strong><br>
+                <a href="mailto:#">0169134@up.com.mx</a>
+              </address>
+            </div>
+
+            <hr class="col-md-12 featurette-divider">
+            <div class="col-md-12">
+              <h1>
+                Top 5 Del mes!
+              </h1>
+            </div>
+            <div class="col-md-6">
+              <table class="table table-hover table-responsive">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Cantante</th>
+                    <th>Autor</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Tell your world</td>
+                    <td>Hatsune Miku</td>
+                    <td>livetune</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Tokyo Teddy Bear</td>
+                    <td>Kagamine Rin</td>
+                    <td>Neru</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Change me</td>
+                    <td>Sakine Meiko</td>
+                    <td>Shu-t</td>
+                  </tr>
+                   <tr>
+                    <th scope="row">4</th>
+                    <td>Leia</td>
+                    <td>Megurine Luka</td>
+                    <td>yuyoyuppe</td>
+                  </tr>
+                   <tr>
+                    <th scope="row">5</th>
+                    <td>A Thousand Year Solo</td>
+                    <td>Shion Kaito </td>
+                    <td>Yanagi-P</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-md-12">
+              <div class="alert alert-danger" role="alert">
+                <strong>Attencion!</strong> El registro esta temporalmente fuera de servicio, disculpe las molestias
+              </div>
+              <button type="button" class="btn btn-default" href="http://stream1.gifsoup.com/view3/1308520/miku-popipo-o.gif">
+                <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
+              </button>
+            </div>
+            <div class="col-md-6">
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Remember me
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Sign in</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <hr class="col-md-12 featurette-divider">
+          </div>
+        </div>
+        <!-- /.container -->
+
+      <!--
+        4. Tab
+      -->
+      <div id="Tabs" class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div>
+
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+              </ul>
+
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="home">
+                  Registrate o Inicia sesion para ver este menu!
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="profile">
+                  Registrate o Inicia sesion para ver este menu!
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="messages">
+                  Registrate o Inicia sesion para ver este menu!
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="settings">
+                  Registrate o Inicia sesion para ver este menu!
+                </div>
+              </div>
+
+            </div>
+            <hr class="col-md-12 featurette-divider">
+          </div>
+        </div>
+      </div>
+
+      <footer class="container">
+        <div>
+          <p>Copyright &copy; K1brigade design 2015</p>
+        </div>
+      </footer>
+
+    </body>
+    <!--
+      Pro Tip 1: Si pones los scripts al final del documento html la página carga más rápido
+      Pro Tip 2: Bootstrap necesita de jQuery para funcionar. Nunca se te olvide ponerlo.
+    -->
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+    <!-- New Scripts -->
+    <script>
+    $(document).ready(function(){
+      $('#exampleModal').on('show.bs.modal', function (event) {
+       var button = $(event.relatedTarget) // Button that triggered the modal
+       var recipient = button.data('whatever') // Extract info from data-* attributes
+        // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+        // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+        var modal = $(this)
+        modal.find('.modal-title').text('New message to ' + recipient)
+        modal.find('.modal-body input').val(recipient)
+      });
+
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      });
+
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+    });
+  </script>
+</html>
