@@ -49,3 +49,81 @@ git add index.html
 git add index.*
 git add *.html
 git add index.html
+git clone https://github.com/Robaum/trygit.git
+sudo proxy_no
+git config --global http.proxy
+git config --global --unset http.proxy
+git clone https://github.com/Robaum/trygit.git
+git status
+git add *
+git status
+git commit -m "First commit"
+git push origin master
+git pull origin master
+git push origin master
+git checkout -b new_Readme
+nano README.md
+git add nano README.md
+git add README.md
+git commit -m "Changed README.md"
+git checkout master
+cat README
+nano README.md
+git merge new_Readme
+nano README.md
+git push origin master
+nano README.md
+git log
+git tag 0.0.1 478987617b
+git tag 0.0.1 941e1696f72210098a0c655f3b031d946088850d
+git tag
+git add -A
+git push origin master
+git add -A
+git add index.html
+git add -A
+git push origin master
+git add *.html
+git status
+cd /var/www/html
+git add *.html
+cd
+vim index.html
+git add *.html
+git push origin master
+git status
+git commit "intente subir el html"
+git commit -m "intente subir el html"
+git status
+git config --global user.name "hotaku6kun"
+git status
+git push origin master
+vim index.html
+cat README
+git pull origin master
+exit
+git push origin master
+sudo apt-get install phpmyadmin
+sudo nano /etc/apache2/apache2.conf
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+kill mysql
+UPDATE mysql.user SET Password=PASSWORD('[password]') WHERE User='[username]';
+cat /usr/local/directadmin/conf/mysql.conf
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+kill 1658
+cat /usr/local/directadmin/conf/mysql.conf
+sudo kill 1658
+sudo service mysql start
+sudo kill 1464
+sudo service mysql start
+top
+sudo kill 1832
+sudo service mysql start
+top
+kill 2038
+sudo kill 2038
+sudo kill 2235
