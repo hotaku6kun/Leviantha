@@ -13,6 +13,7 @@
 # Command Line History (newest to oldest):
 :wq
 :q
+:Q
 :q!
 
 # Search String History (newest to oldest):
@@ -31,113 +32,89 @@
 # Registers:
 
 # File marks:
-'0  279  0  ~/index.html
-'1  429  6  ~/index.html
-'2  1  927  ~/index.html
-'3  1  0  ~/index.html
-'4  1  0  ~/config.inc.php
-'5  2  10  ~/README.md
-'6  929  6  ~/index.html
-'7  930  0  ~/index.html
+'0  3  49  ~/README.md
+'1  1  0  ~/index.html
+'2  279  0  ~/index.html
+'3  429  6  ~/index.html
+'4  1  0  ~/index.html
+'5  1  0  ~/config.inc.php
+'6  2  10  ~/README.md
+'7  929  6  ~/index.html
+'8  930  0  ~/index.html
 
 # Jumplist (newest first):
--'  279  0  ~/index.html
+-'  3  49  ~/README.md
+-'  1  0  ~/README.md
 -'  1  0  ~/index.html
+-'  279  0  ~/index.html
 -'  429  6  ~/index.html
 -'  1  0  ~/config.inc.php
 -'  2  10  ~/README.md
--'  1  0  ~/README.md
 -'  4  50  ~/README.md
 -'  929  6  ~/index.html
 -'  930  0  ~/index.html
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  1  0  ~/config.inc.php
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  1  0  ~/config.inc.php
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  909  6  ~/index.html
 -'  910  0  ~/index.html
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  1  0  ~/config.inc.php
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  21  0  ~/index.html
 -'  1  0  ~/config.inc.php
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  521  6  ~/index.html
 -'  522  0  ~/index.html
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  1  0  ~/config.inc.php
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  1  0  ~/config.inc.php
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  501  6  ~/index.html
 -'  502  0  ~/index.html
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  1  0  ~/config.inc.php
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  1  0  ~/config.inc.php
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  1  0  ~/config.inc.php
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  1  0  ~/config.inc.php
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
--'  2  10  ~/README.md
--'  1  0  ~/README.md
--'  4  50  ~/README.md
 -'  1  0  ~/config.inc.php
--'  2  10  ~/README.md
--'  1  0  ~/README.md
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/index.html
+-'  279  0  ~/index.html
+-'  429  6  ~/index.html
+-'  1  0  ~/index.html
+-'  279  0  ~/index.html
+-'  429  6  ~/index.html
+-'  1  0  ~/config.inc.php
+-'  929  6  ~/index.html
+-'  930  0  ~/index.html
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  909  6  ~/index.html
+-'  910  0  ~/index.html
+-'  1  0  ~/config.inc.php
+-'  21  0  ~/index.html
+-'  1  0  ~/config.inc.php
+-'  521  6  ~/index.html
+-'  522  0  ~/index.html
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  501  6  ~/index.html
+-'  502  0  ~/index.html
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/index.html
+-'  279  0  ~/index.html
+-'  429  6  ~/index.html
 
 # History of marks within files (newest to oldest):
 
+> ~/README.md
+	"	3	49
+	^	3	50
+	.	3	13
+	+	2	10
+	+	3	13
+
 > ~/index.html
-	"	279	0
+	"	1	0
 	^	429	7
 	.	429	0
 	+	930	0
@@ -147,9 +124,3 @@
 
 > ~/config.inc.php
 	"	1	0
-
-> ~/README.md
-	"	2	10
-	^	2	11
-	.	2	10
-	+	2	10
