@@ -12,7 +12,9 @@
 
 # Command Line History (newest to oldest):
 :wq
+:Wq
 :q
+:rq
 :Q
 :q!
 
@@ -30,19 +32,30 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	[
 
 # File marks:
-'0  3  49  ~/README.md
-'1  1  0  ~/index.html
-'2  279  0  ~/index.html
-'3  429  6  ~/index.html
-'4  1  0  ~/index.html
-'5  1  0  ~/config.inc.php
-'6  2  10  ~/README.md
-'7  929  6  ~/index.html
-'8  930  0  ~/index.html
+'0  139  1  ~/primerPHP.php
+'1  5  0  ~/.my.cnf
+'2  1  6  ~/.my.cnf
+'3  9  15  ~/.my.cnf
+'4  147  34  /etc/apache2/apache2.conf
+'5  1  0  ~/config.inc
+'6  3  49  ~/README.md
+'7  1  0  ~/index.html
+'8  279  0  ~/index.html
+'9  429  6  ~/index.html
 
 # Jumplist (newest first):
+-'  139  1  ~/primerPHP.php
+-'  1  0  ~/primerPHP.php
+-'  5  0  ~/.my.cnf
+-'  1  0  ~/.my.cnf
+-'  9  15  ~/.my.cnf
+-'  147  34  /etc/apache2/apache2.conf
+-'  1  0  /etc/apache2/apache2.conf
+-'  1  0  ~/config.inc
 -'  3  49  ~/README.md
 -'  1  0  ~/README.md
 -'  1  0  ~/index.html
@@ -103,8 +116,70 @@
 -'  1  0  ~/index.html
 -'  279  0  ~/index.html
 -'  429  6  ~/index.html
+-'  3  49  ~/README.md
+-'  1  0  ~/README.md
+-'  1  0  ~/index.html
+-'  279  0  ~/index.html
+-'  429  6  ~/index.html
+-'  1  0  ~/config.inc.php
+-'  2  10  ~/README.md
+-'  4  50  ~/README.md
+-'  929  6  ~/index.html
+-'  930  0  ~/index.html
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  909  6  ~/index.html
+-'  910  0  ~/index.html
+-'  1  0  ~/config.inc.php
+-'  21  0  ~/index.html
+-'  1  0  ~/config.inc.php
+-'  521  6  ~/index.html
+-'  522  0  ~/index.html
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  501  6  ~/index.html
+-'  502  0  ~/index.html
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/config.inc.php
+-'  1  0  ~/index.html
+-'  279  0  ~/index.html
 
 # History of marks within files (newest to oldest):
+
+> ~/primerPHP.php
+	"	139	1
+	^	139	2
+	.	139	0
+	+	139	0
+
+> ~/.my.cnf
+	"	5	0
+	^	5	0
+	.	5	0
+	+	9	14
+	+	7	11
+	+	9	15
+	+	5	7
+	+	1	11
+	+	5	21
+	+	1	0
+	+	5	22
+	+	6	0
+	+	5	0
+
+> /etc/apache2/apache2.conf
+	"	147	34
+	^	147	35
+	.	147	0
+	+	148	0
+	+	147	0
+
+> ~/config.inc
+	"	1	0
 
 > ~/README.md
 	"	3	49
