@@ -36,25 +36,36 @@
 	[
 
 # File marks:
-'0  139  1  ~/primerPHP.php
-'1  5  0  ~/.my.cnf
-'2  1  6  ~/.my.cnf
-'3  9  15  ~/.my.cnf
-'4  147  34  /etc/apache2/apache2.conf
-'5  1  0  ~/config.inc
-'6  3  49  ~/README.md
-'7  1  0  ~/index.html
-'8  279  0  ~/index.html
-'9  429  6  ~/index.html
+'0  85  1  ~/user.php
+'1  37  1  ~/database.php
+'2  27  6  ~/index.php
+'3  145  6  ~/create.php
+'4  139  22  /var/log/apache2/error.log
+'5  168  17  /etc/apache2/apache2.conf
+'6  139  1  ~/primerPHP.php
+'7  5  0  ~/.my.cnf
+'8  1  6  ~/.my.cnf
+'9  9  15  ~/.my.cnf
 
 # Jumplist (newest first):
+-'  85  1  ~/user.php
+-'  1  0  ~/user.php
+-'  37  1  ~/database.php
+-'  1  0  ~/database.php
+-'  27  6  ~/index.php
+-'  1  0  ~/index.php
+-'  145  6  ~/create.php
+-'  1  0  ~/create.php
+-'  139  22  /var/log/apache2/error.log
+-'  1  0  /var/log/apache2/error.log
+-'  168  17  /etc/apache2/apache2.conf
+-'  1  0  /etc/apache2/apache2.conf
 -'  139  1  ~/primerPHP.php
 -'  1  0  ~/primerPHP.php
 -'  5  0  ~/.my.cnf
 -'  1  0  ~/.my.cnf
 -'  9  15  ~/.my.cnf
 -'  147  34  /etc/apache2/apache2.conf
--'  1  0  /etc/apache2/apache2.conf
 -'  1  0  ~/config.inc
 -'  3  49  ~/README.md
 -'  1  0  ~/README.md
@@ -136,19 +147,43 @@
 -'  521  6  ~/index.html
 -'  522  0  ~/index.html
 -'  1  0  ~/config.inc.php
--'  1  0  ~/config.inc.php
--'  501  6  ~/index.html
--'  502  0  ~/index.html
--'  1  0  ~/config.inc.php
--'  1  0  ~/config.inc.php
--'  1  0  ~/config.inc.php
--'  1  0  ~/config.inc.php
--'  1  0  ~/config.inc.php
--'  1  0  ~/config.inc.php
--'  1  0  ~/index.html
--'  279  0  ~/index.html
 
 # History of marks within files (newest to oldest):
+
+> ~/user.php
+	"	85	1
+	^	85	2
+	.	85	0
+	+	85	0
+
+> ~/database.php
+	"	37	1
+	^	37	2
+	.	37	0
+	+	37	0
+
+> ~/index.php
+	"	27	6
+	^	27	7
+	.	27	0
+	+	27	0
+
+> ~/create.php
+	"	145	6
+	^	145	7
+	.	145	0
+	+	145	0
+
+> /var/log/apache2/error.log
+	"	139	22
+
+> /etc/apache2/apache2.conf
+	"	168	17
+	^	168	18
+	.	168	17
+	+	148	0
+	+	147	0
+	+	168	17
 
 > ~/primerPHP.php
 	"	139	1
@@ -170,13 +205,6 @@
 	+	5	22
 	+	6	0
 	+	5	0
-
-> /etc/apache2/apache2.conf
-	"	147	34
-	^	147	35
-	.	147	0
-	+	148	0
-	+	147	0
 
 > ~/config.inc
 	"	1	0

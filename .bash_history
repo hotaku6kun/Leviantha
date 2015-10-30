@@ -239,3 +239,23 @@ sudo apt-get install mysql-server mysql-client
 sudo service mysql start
 sudo mysql_secure_installation
 exit
+sudo apt-get install php5-curl
+composer --version
+sudo apt-get install composer
+curl -sS https://getcomposer.org/installer | php
+sudo service apache2 restart
+curl google.com
+curl http://www.google.com
+composer
+curl -sS https://getcomposer.org/installer | php
+composer
+mv ~/composer.phar /usr/local/bin/
+sudo mv ~/composer.phar /usr/local/bin/
+composer
+compose
+composer --version
+sudo apt-get update
+sudo service apache2 restart
+composer
+sudo  service mysql restart
+vi /var/log/apache2/error.log
